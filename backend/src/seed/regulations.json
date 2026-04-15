@@ -1,0 +1,25 @@
+{
+  "regulations": [
+    {
+      "title": "Food Safety Permit",
+      "plainEnglish": "Every restaurant needs a valid food safety permit. Renew every year.",
+      "source": "state",
+      "appliesTo": { "businessTypes": ["restaurant"] },
+      "severity": "critical"
+    },
+    {
+      "title": "Liquor License",
+      "plainEnglish": "If you serve alcohol, you need a liquor license. Renew annually.",
+      "source": "state",
+      "appliesTo": { "businessTypes": ["restaurant"] },
+      "severity": "critical"
+    },
+    {
+      "title": "OSHA Safety Poster",
+      "plainEnglish": "Display workplace safety poster where all employees can see it.",
+      "source": "federal",
+      "appliesTo": { "businessTypes": ["restaurant", "clinic", "retail", "construction"] },
+      "severity": "medium"
+    }
+  ]
+}
