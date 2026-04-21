@@ -3,6 +3,9 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import { loginUser } from '@/lib/api';
+import { saveToken } from '@/lib/auth';
 
 
 export default function Page() {
